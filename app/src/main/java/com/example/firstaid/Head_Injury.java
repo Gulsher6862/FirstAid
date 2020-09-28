@@ -7,13 +7,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class Covid19 extends AppCompatActivity {
-    Button bw,bs,bp;
-    TextView tw,ts,tp;
+public class Head_Injury extends AppCompatActivity {
+    Button bw,bdtyp,bdtest;
+    TextView tw,tdtyp,tdtest;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_covid19);
+        setContentView(R.layout.activity_head__injury);
         bw = (Button) findViewById(R.id.whatbtn);
         bw.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -25,46 +26,46 @@ public class Covid19 extends AppCompatActivity {
                     }
                 });
                 tw.setVisibility(View.VISIBLE);
-                ts.setVisibility(View.GONE);
-                tp.setVisibility(View.GONE);
+                tdtyp.setVisibility(View.GONE);
+                tdtest.setVisibility(View.GONE);
             }
         });
-        bs = (Button) findViewById(R.id.diffbtn);
-        bs.setOnClickListener(new View.OnClickListener() {
+        bdtyp = (Button) findViewById(R.id.diffbtn);
+        bdtyp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                bs.setOnClickListener(new View.OnClickListener() {
+                bdtyp.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        ts.setVisibility(View.GONE);
+                        tdtyp.setVisibility(View.GONE);
+                    }
+                });
+                tdtest.setVisibility(View.GONE);
+                tdtyp.setVisibility(View.VISIBLE);
+                tw.setVisibility(View.GONE);
+            }
+        });
+        bdtest = (Button) findViewById(R.id.testbtn);
+        bdtest.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                bdtest.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        tdtest.setVisibility(View.GONE);
                     }
                 });
                 tw.setVisibility(View.GONE);
-                ts.setVisibility(View.VISIBLE);
-                tp.setVisibility(View.GONE);
-            }
-        });
-        bp = (Button) findViewById(R.id.preventbtn);
-        bp.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                bp.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        tp.setVisibility(View.GONE);
-                    }
-                });
-                tw.setVisibility(View.GONE);
-                ts.setVisibility(View.GONE);
-                tp.setVisibility(View.VISIBLE);
+                tdtyp.setVisibility(View.GONE);
+                tdtest.setVisibility(View.VISIBLE);
             }
         });
         tw = (TextView) findViewById(R.id.whattxt);
         tw.setVisibility(View.GONE);
-        ts = (TextView) findViewById(R.id.difftxt);
-        ts.setVisibility(View.GONE);
-        tp = (TextView) findViewById(R.id.testbtn);
-        tp.setVisibility(View.GONE);
+        tdtyp = (TextView) findViewById(R.id.difftxt);
+        tdtyp.setVisibility(View.GONE);
+        tdtest = (TextView) findViewById(R.id.testtext);
+        tdtest.setVisibility(View.GONE);
 
     }
 }

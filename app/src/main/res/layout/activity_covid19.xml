@@ -83,7 +83,7 @@ The COVID-19 virus spreads primarily through droplets of saliva or discharge fro
 At this time, there are no specific vaccines or treatments for COVID-19. However, there are many ongoing clinical trials evaluating potential treatments. WHO will continue to provide updated information as soon as clinical findings become available.\n" />
 
                 <Button
-                    android:id="@+id/sympbtn"
+                    android:id="@+id/diffbtn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="#EF9A9A"
@@ -93,7 +93,7 @@ At this time, there are no specific vaccines or treatments for COVID-19. However
                     android:text="SYMPTOMS" />
 
                 <TextView
-                    android:id="@+id/symptxt"
+                    android:id="@+id/difftxt"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
@@ -134,7 +134,7 @@ On average it takes 5–6 days from when someone is infected with the virus for 
                     android:text="Preventions" />
 
                 <TextView
-                    android:id="@+id/preventtxt"
+                    android:id="@+id/testbtn"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
