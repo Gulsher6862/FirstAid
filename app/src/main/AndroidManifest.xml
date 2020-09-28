@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Asthma"></activity>
+        <activity android:name=".Bleeding"></activity>
+        <activity android:name=".Asthma" />
         <activity android:name=".Head_Injury" />
         <activity android:name=".Covid19" />
         <activity android:name=".Home" />

@@ -56,7 +56,7 @@ public class Home extends AppCompatActivity {
         bleeding.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Home.this, Covid19.class);
+                Intent intent = new Intent(Home.this, Bleeding.class);
                 startActivity(intent);
             }
         });
@@ -64,7 +64,7 @@ public class Home extends AppCompatActivity {
         t3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Home.this, Covid19.class);
+                Intent intent = new Intent(Home.this, Bleeding.class);
                 startActivity(intent);
             }
         });
