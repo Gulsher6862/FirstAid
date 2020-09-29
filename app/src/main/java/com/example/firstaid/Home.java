@@ -91,7 +91,7 @@ public class Home extends AppCompatActivity {
         choking.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Home.this, Covid19.class);
+                Intent intent = new Intent(Home.this, Choking.class);
                 startActivity(intent);
             }
         });
@@ -100,7 +100,7 @@ public class Home extends AppCompatActivity {
         t5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Home.this, Covid19.class);
+                Intent intent = new Intent(Home.this, Choking.class);
                 startActivity(intent);
             }
         });
