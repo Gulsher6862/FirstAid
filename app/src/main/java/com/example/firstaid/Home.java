@@ -45,7 +45,7 @@ public class Home extends AppCompatActivity {
         t8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Home.this,Covid19.class);
+                Intent intent = new Intent(Home.this,Heart_Attack.class);
                 startActivity(intent);
             }
         });
@@ -53,7 +53,7 @@ public class Home extends AppCompatActivity {
         t9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Home.this,Covid19.class);
+                Intent intent = new Intent(Home.this,Allergies.class);
                 startActivity(intent);
             }
         });
@@ -61,7 +61,7 @@ public class Home extends AppCompatActivity {
         t10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Home.this,Covid19.class);
+                Intent intent = new Intent(Home.this,Hypothermia.class);
                 startActivity(intent);
             }
         });
@@ -69,15 +69,15 @@ public class Home extends AppCompatActivity {
         t11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Home.this,Covid19.class);
+                Intent intent = new Intent(Home.this,Diabetic_Emergency.class);
                 startActivity(intent);
             }
         });
-        t12 = (TextView) findViewById(R.id.hearttxt);
+        t12 = (TextView) findViewById(R.id.heartstrtxt);
         t12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Home.this,Covid19.class);
+                Intent intent = new Intent(Home.this,Heart_Stroke.class);
                 startActivity(intent);
             }
         });

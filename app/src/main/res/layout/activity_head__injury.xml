@@ -38,7 +38,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal|center_vertical"
                     android:paddingTop="5dp"
-                    android:text="Covid-19 (Coronavirus)"
+                    android:text="Head Injury"
                     android:textColor="#D61414"
                     android:textSize="24sp"
                     android:textStyle="bold" />

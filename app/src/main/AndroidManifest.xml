@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Head_Injury"></activity>
+        <activity android:name=".Heart_Stroke"></activity>
+        <activity android:name=".Diabetic_Emergency" />
+        <activity android:name=".Hypothermia" />
+        <activity android:name=".Allergies" />
+        <activity android:name=".Heart_Attack" />
+        <activity android:name=".Head_Injury" />
         <activity android:name=".Covid19" />
         <activity android:name=".Home" />
         <activity android:name=".SignUp" />
